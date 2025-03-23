@@ -1,0 +1,64 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+   display: flex;
+   justify-content: center;
+   background-image: url("https://media.istockphoto.com/id/536507269/photo/night-sky-with-bright-stars-and-blue-nebula.jpg?s=612x612&w=0&k=20&c=GyiSGEZ-zAD7SHrhTrlpanoCVpIH2MhLjVHXJ8huWC4=");
+   background-size: auto;
+}
+
+.container{
+    position: relative;
+    border: 2px solid rgb(7, 158, 218);
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(29, 37, 57, 0.6);
+    font-weight: bold;
+}
+
+#taskInput{
+    border:5px solid rgb(7, 158, 218);
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+
+#addBtn{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transition: 500ms;
+    margin-left: 8px;
+}
+
+#addBtn:hover{
+    color: azure;
+    background-color: rgb(13, 88, 131);
+    cursor: pointer;
+    box-shadow: 3px 3px 2px rgb(32, 121, 172);
+    border: 2px solid white;
+    transform: scale(1.25);
+}
+
+.fa-solid{
+    position: absolute;
+    right: 20%;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.fa-solid:hover{
+    cursor:pointer;
+    transform: scale(1.25);
+    opacity: 1;
+}
+
+li{
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+li:hover{
+    box-shadow:  0 0 4px rgba(255, 255, 255, 0.5);
+}
