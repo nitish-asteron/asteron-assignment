@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hero-conatiner">
+      <h1>MoviesInfo</h1>
+      <h2>Search Movies</h2>
+      <input type="text" id="search" placeholder="Search Movies" required />
+      <button type="submit" id="searchBtn" onclick="{searchMovie()}">
+        Search
+      </button>
+      <div class="searchedMovies">
+        
+      </div>
+
+      <div class="popularContainer">
+        <h2>popular movies here</h2>
+        <div class="popular"></div>
+        <button class="loadBtn">load more</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
