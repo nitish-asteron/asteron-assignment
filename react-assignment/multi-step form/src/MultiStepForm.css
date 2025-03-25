@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 4rem;
+    border: 1px solid #cacaca;
+    border-radius: 15px;
+}
+
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+input{
+    width: 60%;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+}
+
+label{
+    font-weight: bold;
+}
+
+button{
+    background-color: #f1f1f1
+}

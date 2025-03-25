@@ -207,3 +207,14 @@
 
 
 
+const person = {
+    name: 'john',
+    age: 30,
+    vehicle: {
+        type: 'car',
+        year: 2020
+    }
+}
+
+const vehicleYear = person.vehicle?.year;
+console.log(vehicleYear);

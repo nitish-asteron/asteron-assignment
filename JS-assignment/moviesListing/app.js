@@ -55,13 +55,3 @@ loadbtn.addEventListener('click', () => {
     popularMovie(page);
     console.log('hlo');
 });
-
-
-
-
-
-
-
-
-
-
