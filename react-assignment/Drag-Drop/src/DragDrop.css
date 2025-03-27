@@ -1,0 +1,100 @@
+/* * {
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.App .column {
+    width: 30%;
+}
+
+.droppable-col {
+    width: 100%;
+    background-color: gray;
+    padding: 10px 10px 0 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    margin-bottom: 10px;
+    background-color: gray;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.item.dragging {
+    background-color: coral;
+} */
+
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .input-section {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .board {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .column {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .droppable-col {
+    min-height: 150px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px dashed #ccc;
+  }
+  
+  .item {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    cursor: grab;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item.dragging {
+    background-color: lightblue;
+  }
+  
